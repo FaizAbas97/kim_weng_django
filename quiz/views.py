@@ -9,3 +9,6 @@ def index(request):
 
 def index_2(request):
     return HttpResponse("Hello, world. You're at the quiz index part 2.")
+
+def index_3(request):
+    return HttpResponse("Welcome to index part 3.")   
