@@ -17,4 +17,4 @@ class Question(models.Model):
     date = models.CharField(max_length=50)
     question = models.CharField(max_length=200)
     answer = models.CharField(max_length=200)
-    is_true = models.BoeleanField()
+    is_true = models.BooleanField()
